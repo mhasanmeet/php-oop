@@ -1,7 +1,7 @@
 <?php
 
 // public access modifier
-class base{
+class publicClass{
     public $name;
 
     public function __construct($n){
@@ -13,5 +13,5 @@ class base{
     }
 }
 
-$name = new base('Mahmudul Hasan');
+$name = new publicClass('Mahmudul Hasan');
 $name->show();
