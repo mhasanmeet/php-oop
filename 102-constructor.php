@@ -1,23 +1,19 @@
 <?php
 
+/* constructor is a special method within a class that gets called automatically,
+when an instance of the class is created using the "new" keyword
+*/
 class person{
-    public $name, $age;
+    public $name;
 
-    public function __construct($name = " ", $age = " "){
+    public function __construct($name = ""){
         $this->name = $name;
-        $this->age = $age;
-    }
-
-    function show(){
-        echo "My Name:" . $this->name . "And my age is:" . $this->age . "\n";
+        echo "My name is: " . $this->name;
     }
 }
 
-$person = new person();
-$kazi = new person("Kazi Sakib", 28);
 
-$person->show();
-$kazi->show();
+$kazi = new person("Kazi Sakib");
 
 
 
