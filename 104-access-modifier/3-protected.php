@@ -23,7 +23,7 @@ class protectDerived extends protectedClass{
 }
 
 
-$name2 = new protectedClass("Mahmudu");
+$name2 = new protectedClass("Mahmudul");
 $name2->show();
 
 
