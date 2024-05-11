@@ -17,6 +17,7 @@ class chaining{
     }
 }
 
-
 $chainingObj = new chaining();
+
+// method chaining
 $chainingObj->first()->second()->third();

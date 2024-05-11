@@ -15,7 +15,7 @@ class calculation {
     }
 }
 
-// Create a new object
+// Create a new object based on class
 $newObj = new calculation;
 
 // insert value into variable 
