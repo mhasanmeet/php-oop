@@ -1,5 +1,35 @@
 ## PHP & MySQL
+PHP offer a MySQLi extension for interact with MySQL database. It offers both an object-oriented and a procedural interface.
 
+How to connect between PHP & MySQL 
+![PHP MySQL conn](./mysql-conn.png)
+
+## MySQLi Fetch functions
+* `mysqli_fetch_array($result, $resulttype = MYSQLI_BOTH or MYSQLI_ASSOC or MYSQLI_NUM)`
+Fetches a row from the result set as an associative array, a numeric array, or both.
+
+* `mysqli_fetch_assoc($result)` 
+Fetches a row from the result set as an associative array.
+
+* `mysqli_fetch_row($result)`
+Fetches a row from the result set as a numeric array.
+
+* `mysqli_fetch_object($result)`
+Fetches a row from the result set as an object.
+
+* `mysqli_fetch_all($result, $resulttype = MYSQLI_NUM or MYSQLI_ASSOC or MYSQLI_BOTH)`
+Fetches all rows from the result set as an array of associative arrays, numeric arrays, or objects.
+
+## MySQLi error functions 
+* `mysqli_connect_error()`
+
+* `mysqli_connect_errorno()`
+
+* `mysqli_error()`
+
+* `mysqli_error_list()`
+
+## What is MySQLi procedural, MySQLi object-oriented & PDO
 * What is MySQLi procedural?
 > MySQLi (MySQL Improved) is a PHP extension that provides an interface to the MySQL database. It offers both an object-oriented and a procedural interface for interacting with MySQL databases.
 
