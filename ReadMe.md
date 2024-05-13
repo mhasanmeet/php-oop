@@ -1,8 +1,12 @@
 ## PHP OOP - Object Oriented Programming
 
-1. Class and Object 
+1. Class, Object and Access Modifier 
 2. Namespace
-3. Trait
-4. namespace
-5. method chaining
-6. Magic methods.
+3. Inheritance
+4. Trait
+5. Interface
+6. Method Chaining
+7. Magic methods.
+8. Magic Variables
+9. Conditional Functions
+10. PHP & MySQL Database interaction
