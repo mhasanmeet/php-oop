@@ -14,3 +14,4 @@
 ## Resources 
 * [php official website](https://www.php.net/)
 * [Yahoo Baba | Hindi](https://www.youtube.com/playlist?list=PL0b6OzIxLPbwoi6Urr4LZTz2AMMCtzqDt)
+* [Practical Object Oriented Programming by Polash Mahmud](https://learnwith.polashmahmud.com/courses/practical-object-oriented-programming)
