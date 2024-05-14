@@ -10,3 +10,7 @@
 8. Magic Variables
 9. Conditional Functions
 10. PHP & MySQL Database interaction
+
+## Resources 
+* [php official website](https://www.php.net/)
+* [Yahoo Baba | Hindi](https://www.youtube.com/playlist?list=PL0b6OzIxLPbwoi6Urr4LZTz2AMMCtzqDt)
