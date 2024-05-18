@@ -24,3 +24,32 @@ $obj->hello();
 
 $obj2 = new B;
 $obj2->hello();
+
+
+
+
+
+// Example of trait in user authenticate system
+
+interface AuthenticatableInterface{
+    public function getPassword();
+    public function setPassword();
+}
+
+trait Authenticatable{
+    public function getPassword(){
+        // Implement get Password method
+    }
+
+    public function setPassword(){
+        // implement set Password method
+    }
+}
+
+class User implements AuthenticatableInterface{
+    use Authenticatable;
+}
+
+class Admin implements AuthenticatableInterface{
+    use Authenticatable;
+}
